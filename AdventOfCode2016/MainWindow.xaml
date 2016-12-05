@@ -7,7 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="151,86,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <ScrollViewer>
+            <StackPanel>
+                <Grid Height="28" HorizontalAlignment="Stretch">
+                    <Button Name="btn_Day1_1" Content="Day 1 - 1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day1_1_Click" Margin="5,4,0,0"/>
+                    <Button Name="btn_Day1_2" Content="Day 1 - 2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day1_2_Click" Margin="95,4,0,0"/>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
 
     </Grid>
 </Window>
