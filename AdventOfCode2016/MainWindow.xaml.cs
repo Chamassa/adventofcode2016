@@ -43,5 +43,68 @@ namespace AdventOfCode2016
             string puzzle2 = day.Puzzle2();
             MessageBox.Show(puzzle2);
         }
+
+        private void btn_Day2_1_Click(object sender, RoutedEventArgs e)
+        {
+            Day2 day = new Day2();
+            string test1 = day.Puzzle1("ULL\nRRDDD\nLURDL\nUUUUD");
+            string puzzle1 = day.Puzzle1();
+            MessageBox.Show(puzzle1);
+        }
+
+        private void btn_Day2_2_Click(object sender, RoutedEventArgs e)
+        {
+            Day2 day = new Day2();
+            string test2 = day.Puzzle2("ULL\nRRDDD\nLURDL\nUUUUD");
+            string puzzle2 = day.Puzzle2();
+            MessageBox.Show(puzzle2);
+        }
+
+        private void btn_Day3_1_Click(object sender, RoutedEventArgs e)
+        {
+            Day3 day = new Day3();
+            string test2 = day.Puzzle2(" 5 10 25 ");
+            string puzzle1 = day.Puzzle1();
+            MessageBox.Show(puzzle1);
+        }
+
+        private void btn_Day3_2_Click(object sender, RoutedEventArgs e)
+        {
+            Day3 day = new Day3();
+            string test2 = day.Puzzle2(" 5 10 25 ");
+            string puzzle2 = day.Puzzle2();
+            MessageBox.Show(puzzle2);
+        }
+
+        private void btn_Day4_1_Click(object sender, RoutedEventArgs e)
+        {
+            Day4 day = new Day4();
+            string test = day.Puzzle1("aaaaa-bbb-z-y-x-123[abxyz]\na-b-c-d-e-f-g-h-987[abcde]\nnot-a-real-room-404[oarel]\ntotally-real-room-200[decoy]");
+            string puzzle = day.Puzzle1();
+            MessageBox.Show(puzzle);
+        }
+
+        private void btn_Day4_2_Click(object sender, RoutedEventArgs e)
+        {
+            Day4 day = new Day4();
+            string test = day.Puzzle2("qzmt-zixmtkozy-ivhz-343[zimth]");
+            string puzzle = day.Puzzle2();
+            MessageBox.Show(puzzle);
+        }
+        private void btn_Day5_1_Click(object sender, RoutedEventArgs e)
+        {
+            Day5 day = new Day5();
+            //string test = day.Puzzle1("abc");
+            string puzzle = day.Puzzle1("wtnhxymk");
+            MessageBox.Show(puzzle);
+        }
+
+        private void btn_Day5_2_Click(object sender, RoutedEventArgs e)
+        {
+            Day5 day = new Day5();
+            string test = day.Puzzle2("abc");
+            string puzzle = day.Puzzle2("wtnhxymk");
+            MessageBox.Show(puzzle);
+        }
     }
 }

@@ -13,6 +13,22 @@
                     <Button Name="btn_Day1_1" Content="Day 1 - 1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day1_1_Click" Margin="5,4,0,0"/>
                     <Button Name="btn_Day1_2" Content="Day 1 - 2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day1_2_Click" Margin="95,4,0,0"/>
                 </Grid>
+                <Grid Height="28" HorizontalAlignment="Stretch">
+                    <Button Name="btn_Day2_1" Content="Day 2 - 1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day2_1_Click" Margin="5,4,0,0"/>
+                    <Button Name="btn_Day2_2" Content="Day 2 - 2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day2_2_Click" Margin="95,4,0,0"/>
+                </Grid>
+                <Grid Height="28" HorizontalAlignment="Stretch">
+                    <Button Name="btn_Day3_1" Content="Day 3 - 1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day3_1_Click" Margin="5,4,0,0"/>
+                    <Button Name="btn_Day3_2" Content="Day 3 - 2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day3_2_Click" Margin="95,4,0,0"/>
+                </Grid>
+                <Grid Height="28" HorizontalAlignment="Stretch">
+                    <Button Name="btn_Day4_1" Content="Day 4 - 1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day4_1_Click" Margin="5,4,0,0"/>
+                    <Button Name="btn_Day4_2" Content="Day 4 - 2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day4_2_Click" Margin="95,4,0,0"/>
+                </Grid>
+                <Grid Height="28" HorizontalAlignment="Stretch">
+                    <Button Name="btn_Day5_1" Content="Day 5 - 1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day5_1_Click" Margin="5,4,0,0"/>
+                    <Button Name="btn_Day5_2" Content="Day 5 - 2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day5_2_Click" Margin="95,4,0,0"/>
+                </Grid>
             </StackPanel>
         </ScrollViewer>
 
