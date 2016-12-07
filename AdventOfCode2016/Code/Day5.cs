@@ -58,6 +58,7 @@ namespace AdventOfCode2016.Code
                 c++;
             }
             return new string(o);
+            return new string(o);
         }
     }
 }

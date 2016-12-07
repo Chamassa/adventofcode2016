@@ -106,5 +106,37 @@ namespace AdventOfCode2016
             string puzzle = day.Puzzle2("wtnhxymk");
             MessageBox.Show(puzzle);
         }
+
+        private void btn_Day6_1_Click(object sender, RoutedEventArgs e)
+        {
+            Day6 day = new Day6();
+            string test = day.Puzzle1("eedadn\ndrvtee\neandsr\nraavrd\natevrs\ntsrnev\nsdttsa\nrasrtv\nnssdts\nntnada\nsvetve\ntesnvt\nvntsnd\nvrdear\ndvrsen\nenarar");
+            string puzzle = day.Puzzle1();
+            MessageBox.Show(puzzle);
+        }
+
+        private void btn_Day6_2_Click(object sender, RoutedEventArgs e)
+        {
+            Day6 day = new Day6();
+            string test = day.Puzzle2("eedadn\ndrvtee\neandsr\nraavrd\natevrs\ntsrnev\nsdttsa\nrasrtv\nnssdts\nntnada\nsvetve\ntesnvt\nvntsnd\nvrdear\ndvrsen\nenarar");
+            string puzzle = day.Puzzle2();
+            MessageBox.Show(puzzle);
+        }
+
+        private void btn_Day7_1_Click(object sender, RoutedEventArgs e)
+        {
+            Day7 day = new Day7();
+            string test = day.Puzzle1("abba[mnop]qrst\nabcd[bddb]xyyx\naaaa[qwer]tyui\nioxxoj[asdfgh]zxcvbn"); //2
+            string puzzle = day.Puzzle1();
+            MessageBox.Show(puzzle);
+        }
+
+        private void btn_Day7_2_Click(object sender, RoutedEventArgs e)
+        {
+            Day7 day = new Day7();
+            string test = day.Puzzle2("aba[bab]xyz\nxyx[xyx]xyx\n\naaa[kek]eke\nzazbz[bzb]cdb"); //3
+            string puzzle = day.Puzzle2();
+            MessageBox.Show(puzzle);
+        }
     }
 }
