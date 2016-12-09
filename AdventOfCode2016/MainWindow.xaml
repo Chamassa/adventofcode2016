@@ -37,6 +37,14 @@
                     <Button Name="btn_Day7_1" Content="Day 7 - 1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day7_1_Click" Margin="5,4,0,0"/>
                     <Button Name="btn_Day7_2" Content="Day 7 - 2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day7_2_Click" Margin="95,4,0,0"/>
                 </Grid>
+                <Grid Height="28" HorizontalAlignment="Stretch">
+                    <Button Name="btn_Day8_1" Content="Day 8 - 1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day8_1_Click" Margin="5,4,0,0"/>
+                    <Button Name="btn_Day8_2" Content="Day 8 - 2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day8_2_Click" Margin="95,4,0,0"/>
+                </Grid>
+                <Grid Height="28" HorizontalAlignment="Stretch">
+                    <Button Name="btn_Day9_1" Content="Day 9 - 1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day9_1_Click" Margin="5,4,0,0"/>
+                    <Button Name="btn_Day9_2" Content="Day 9 - 2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btn_Day9_2_Click" Margin="95,4,0,0"/>
+                </Grid>
             </StackPanel>
         </ScrollViewer>
 

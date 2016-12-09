@@ -55,6 +55,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Code\Day9.cs" />
+    <Compile Include="Code\Day8.cs" />
     <Compile Include="Code\Day7.cs" />
     <Compile Include="Code\Day6.cs" />
     <Compile Include="Code\Day5.cs" />
